@@ -58,7 +58,7 @@ def user_input(user_question):
 
 # Streamlit App UI
 def main():
-    st.set_page_config(page_title="Chat with PDF using Gemini", page_icon="💡", layout="wide")
+    st.set_page_config(page_title="Showa Local AI", page_icon="💡", layout="wide")
     
     # Add a custom CSS for styling
     st.markdown("""
@@ -73,7 +73,7 @@ def main():
     </style>
     """, unsafe_allow_html=True)
     
-    st.title("💡 Chat with PDF using Gemini")
+    st.title("Chat with PDF using AI")
     st.write("Upload your PDF files, process them, and interact to get context-aware answers.")
 
     # Sidebar for PDF upload and instructions
